@@ -2,35 +2,22 @@
 #        POLAROID GALLERY SETTINGS
 # ==========================================
 
-# Gallery header title and creator
+# Gallery header title and curator name
 galleryTitle = Memories in Frame
-author = Brandy
+author = Template Studio
 
-# Photo Source:
-# - auto: automatically loads photos and reads camera details from src/assets/photos
-# - manual: uses custom captions and notes written in src/data/photos.js
+# ------------------------------------------
+# PHOTO SOURCE SELECTION
+# ------------------------------------------
+# - auto: Loads all images from 'src/assets/photos/' automatically with camera EXIF data
+# - manual: Uses custom captions and notes defined in 'src/data/photos.js'
 source = auto
 
 # ------------------------------------------
-# BACKGROUND OPTIONS
+# APPEARANCE & STYLING
 # ------------------------------------------
-# Choose ONE method for your background:
+# Background: Hex color (#e8e3d9, #f5f5f4, #18181b) or an image URL
+background = #e8e3d9
 
-# Option A: Solid Color / Hex Code (e.g. #f5f5f4, #18181b, linen, darkslategray, #d8c7b5)
-background = #ffffff
-
-# Option B: Background Image (put an image in public/ or paste a direct image URL)
-# Example: background = /background.webp
-# Example: background = https://images.unsplash.com/photo-1513836279014-a89f7a76ae86
-
-# Image Adjustments (Only applied if using an image background):
-# Blur: 0px, 4px, 8px, 12px
-bgBlur = 6px
-# Overlay Darkness: 0.0 (bright) to 1.0 (black) to help the white frames pop
-bgOverlayOpacity = 0.25
-
-# ------------------------------------------
-# TEXT COLOR
-# ------------------------------------------
-# Color for title and author text (#292524 for light backgrounds, #ffffff for dark)
+# Global text color
 textColor = #292524
