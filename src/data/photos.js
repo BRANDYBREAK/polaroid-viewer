@@ -2,7 +2,7 @@ export const photos = [
     {
         id: 1,
         src: "/photos/P1.jpg",
-        caption: "SAfterglow With You",
+        caption: "Afterglow With You",
         date: "September 6, 2026",
         rotation: "-rotate-2"
     },
