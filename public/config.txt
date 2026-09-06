@@ -11,7 +11,7 @@ author = Template Studio
 # ------------------------------------------
 # - auto: Loads all images from 'src/assets/photos/' automatically with camera EXIF data
 # - manual: Uses custom captions and notes defined in 'src/data/photos.js'
-source = auto
+source = manual
 
 # ------------------------------------------
 # APPEARANCE & STYLING
