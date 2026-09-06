@@ -4,7 +4,7 @@
 
 # Gallery header title and curator name
 galleryTitle = Memories in Frame
-author = Template Studio
+author = Brandy
 
 # ------------------------------------------
 # PHOTO SOURCE SELECTION
